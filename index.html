@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+	<!-- Documento base de la landing. Ahora usa Tailwind por CDN con config en JS para evitar bugs del build y habilitar autocompletado. -->
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Landing • Tailwind</title>
+
+		<!-- CSS compilado con Tailwind local -->
+  <link rel="stylesheet" href="./dist/output.css" />
+	</head>
+
+	<body class="antialiased bg-gray-50 text-gray-900">
+    <!-- Tailwind visual test: should be green with white text -->
+    <div class="bg-green-500 text-white p-4 text-center">Tailwind is working ✅</div>
+		<!-- HERO principal -->
+		<section class="w-full text-white bg-black">
+			<div class="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-28 min-h-[60vh] sm:min-h-[70vh] lg:min-h-[80vh] grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
+				<!-- Columna de TEXTO -->
+				<div class="text-center lg:text-left">
+					<h1 class="text-4xl font-extrabold tracking-tight sm:text-6xl md:text-7xl">Yon Y isi</h1>
+					<p class="mt-4 text-base text-white/80 sm:text-lg">ola amor te amo mucho</p>
+				</div>
+				<!-- Columna VISUAL (imagen/mokcup/ilustración) -->
+				<div>
+					<div class="aspect-[4/3] w-full">
+						<div class="flex h-full w-full items-center justify-center rounded-lg">
+							<img src="Yon Y isi (478 x 724 px) (1).png" alt="Ilustración" class="w-full h-full  object-cover" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	
+		
+    <div
+    id="bento-div"
+    class="w-full grid grid-cols-10 max-auto auto-rows-[35rem] gap-4 p-1"
+    >
+      <div class="col-span-10 lg:col-span-4 group overflow-hidden rounded-md">
+        <img
+          src="F9C61027-9DCC-448E-921D-6705D78D2478.gif"
+          class="h-full w-full object-cover
+        group-hover:scale-105 transition-transform duration-500 ease-in-out"
+        />
+      </div>
+      <div class="col-span-10 lg:col-span-6 group overflow-hidden rounded-md">
+        <img
+          src="Yon Y isi (478 x 724 px) (2).png"
+          class="h-full w-full aspect-auto object-cover  bg-top 
+      group-hover:scale-105 transition-transform duration-500 ease-in-out"
+        />
+      </div>
+      <div class="col-span-10 lg:col-span-6 group overflow-hidden rounded-md">
+        <img
+          src="IMG_2882.webp"
+          class="h-full w-full object-cover
+        group-hover:scale-105 transition-transform duration-500 ease-in-out"
+        />
+      </div>
+      <div class="col-span-10 lg:col-span-4 group overflow-hidden rounded-md">
+        <img
+          src="alo.jpg"
+          class="h-full w-full object-cover
+        group-hover:scale-105 transition-transform duration-500 ease-in-out"
+        />
+      </div>
+    </div>
+        
+
+    </div>
+	</body>
+</html>
